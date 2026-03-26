@@ -57,6 +57,7 @@ ack = s.recv(1024).decode()
 print("Received:", ack)
 
 i += w
+
 s.close()<img width="1912" height="361" alt="image" src="https://github.com/user-attachments/assets/8310b9b5-07b8-45e8-a96e-3f88bc957497" />
 
 ## RESULT
