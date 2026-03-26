@@ -30,7 +30,9 @@ if not data:
 print("Frames received:", data)
 
 ack = "ACK for " + data
+
 conn.send(ack.encode())
+
 conn.close()<img width="1900" height="352" alt="image" src="https://github.com/user-attachments/assets/33759f2c-65b0-434d-9f2b-afff1f227715" />
 import socket
 
