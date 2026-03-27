@@ -9,6 +9,7 @@
 6. Stop the Program
 ## PROGRAM
 SERVER
+```import socket
 s=socket.socket() 
 s.bind(('localhost',8000)) 
 s.listen(5) c,addr=s.accept() 
@@ -27,8 +28,8 @@ s.connect(('localhost',8000))
 while True: 
 print(s.recv(1024).decode()) 
 s.send("acknowledgement received from the server".encode())
-
-##OUTPUT
+```
+## OUTPUT
 <img width="673" height="417" alt="image" src="https://github.com/user-attachments/assets/69ae9c53-f3ac-47fb-aac7-e08cd3ecb501" />
 
 ## RESULT
